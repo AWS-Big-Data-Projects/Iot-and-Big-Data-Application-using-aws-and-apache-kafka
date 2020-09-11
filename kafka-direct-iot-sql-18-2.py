@@ -2,6 +2,7 @@
  To run this on your local machine, you need to setup Kafka and create a producer first, see
  http://kafka.apache.org/documentation.html#quickstart
 
+
  and then run the example
     `$ bin/spark-submit --jars \
       external/kafka-assembly/target/scala-*/spark-streaming-kafka-assembly-*.jar \
